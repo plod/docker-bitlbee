@@ -14,7 +14,7 @@ Run BitlBee listening in port 6667 with default config
 ```
 docker run \
   -p 6667:6667 \
-  plod/docker-rpi-bitlbee -n
+  plod/plod/rpi-bitlbee -n
 ```
 
 Use a specific config directory
@@ -22,7 +22,7 @@ Use a specific config directory
 docker run \
   -p 6667:6667 \
   -v $(pwd)/bitlbee:/etc/bitlbee:ro \
-  fr3nd/bitlbee -n
+  plod/rpi-bitlbee -n
 ```
 
 Store all data into a parent host's directory
@@ -30,7 +30,7 @@ Store all data into a parent host's directory
 docker run \
   -p 6667:6667 \
   -v /tmp/bitlbee:/var/lib/bitlbee:rw \
-  plod/docker-rpi-bitlbee -n
+  plod/rpi-bitlbee -n
 ```
 
 Dockerfile available from:  https://github.com/plod/docker-rpi-bitlbee
