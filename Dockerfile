@@ -1,5 +1,5 @@
-FROM debian:jessie
-MAINTAINER Carles Amigó, fr3nd@fr3nd.net
+FROM resin/rpi-raspbian:latest
+MAINTAINER plod <me@plod.tv>
 
 RUN apt-get update && apt-get install -y \
       asciidoc \
