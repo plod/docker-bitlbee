@@ -1,4 +1,4 @@
-# BitlBee docker image
+# BitlBee rpi-docker image (ARM)
 
 ## Description
 
