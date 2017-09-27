@@ -14,7 +14,7 @@ Run BitlBee listening in port 6667 with default config
 ```
 docker run \
   -p 6667:6667 \
-  plod/plod/rpi-bitlbee -n
+  plod/rpi-bitlbee -n
 ```
 
 Use a specific config directory
